@@ -1,0 +1,24 @@
+{
+	"name": "node_express_tutorial",
+	"version": "1.0.0",
+	"description": "node express tutorial",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "babel index.js --out-dir build",
+		"dev": "babel-watch index.js"
+	},
+	"author": "Omkar",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.6.0",
+		"cors": "^2.8.5",
+		"express": "^4.16.3",
+		"moment": "^2.22.2"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-watch": "^2.0.7"
+	}
+}
